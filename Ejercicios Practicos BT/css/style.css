@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+nav{
+    background-color: rgb(184, 145, 78);
+    
+}
+
+
+nav ul li a{
+    color: rgb(255, 240, 211) !important;
+    font-size: 18px !important;
+    padding: 0 40px !important;
+    
+}
+
+nav ul li:hover{
+    color: rgb(104, 75, 25);
+    font-weight: bold;
+
+}
+
+.navbar-brand img{
+    width: 35%;
+    height: auto;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+.container-img{
+    position: relative;
+}
+
+.container-img img{
+    display: block;
+}
+
+.text {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+}
+.text h1{
+    font-size: 3rem;
+    font-weight:350;
+}
+.text p{
+    font-size: 1.8rem;
+}
+
+section{
+    margin-top: 5%;
+}
+
+.card{
+    border: 0;
+}
+
+.card-img-overlay{
+    color: white;
+    margin: 5%;
+}
+
+#sectionvaso{
+    margin-top:120px ;
+}
+.img-vaso{
+    margin-top: -85px;  
+}
+
+.div-vaso{
+    background-color: rgb(255, 200, 36);
+}
+
+.col-texto{
+    color: antiquewhite;
+    background-color: rgb(66, 48, 30);
+}
+
+.text-menu h4{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.texto{
+    display: flex;
+    justify-content:space-between ;
+}
+
+.text-menu p{
+    font-family: 'Petit Formal Script', cursive;
+
+}
+
+.div-vaso h3{
+    color: rgb(65, 53, 37);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.div-vaso p{
+    color: rgb(65, 53, 37);
+    font-family: 'Petit Formal Script', cursive;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding: 15px 0 10px 0;
+    margin-top: 3%;
+    background-color: rgb(184, 145, 78);
+}
+
+footer p{
+    color: antiquewhite;
+    font-size: 1.2rem;
+}
+
+i{
+    font-size: 1.5rem;
+    margin-left: 20px;
+    color: antiquewhite;
+}
+
+#blue:hover{
+    color: rgb(0, 106, 255);
+}
+
